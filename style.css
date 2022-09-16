@@ -19,6 +19,7 @@ body{
 /*Titulos y Parrafos*/
 h1#titulo {
     color: #048483;
+    margin:10px;
 }
 
 p>strong {
@@ -31,6 +32,7 @@ p>strong {
 
 h2#subtitulo {
     color: blue;
+    margin:10px;
 }
 
 p a[href="#"] {
@@ -49,9 +51,10 @@ p .especial {
 
 table{
     margin: 10px;
+    border-collapse: collapse;
 }
 
-table th, td{
+tr, th, td{
     border: 1px solid black;
     padding: 5px;
 }
